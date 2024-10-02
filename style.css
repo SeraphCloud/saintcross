@@ -27,3 +27,10 @@ header {
 #contato {
     background-color: #193661;
 }
+
+@media (max-width: 767px) {
+    .carousel .carousel-item img {
+        object-fit: cover;
+        height: 280px;
+    }
+}
