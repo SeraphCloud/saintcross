@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="sticky-top p-">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a href="#" class="navbar-brand section-title fs-2 fw-bold">SaintCross</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link active fw-bold" aria-current="page">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#produtos-e-serviços">Produtos e Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="header">
+        <section id="sobre">
+            <div id="carousel" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://cdn.pixabay.com/photo/2016/02/07/16/35/world-1185076_960_720.png" class="d-block w-100" alt="mapa-med">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Garantia de entrega</h5>
+                      <p>Não importa onde você esteja, vamos até você.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/05/09/36/ai-generated-8366613_960_720.jpg" class="d-block w-100" alt="logística-integrada">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Logística integrada</h5>
+                      <p>Qualidade que você nunca viu.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://leveltrade.com.br/wp-content/uploads/2023/08/pexels-tiger-lily-4483610.jpg" class="d-block w-100" alt="centro-dist">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Espaço seguro</h5>
+                      <p>Tomamos conta de tudo para o momento esperado.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    
+        <section id="produtos-e-serviços">
+            <div class="container pt-5 pb-5">
+                <div class="text-center pb-3">
+                    <h2 class="section-title">PRODUTOS E SERVIÇOS</h2>
+                    <h4 class="section-title">Conheça as opções e aproveite os benefícios de cada oportunidade oferecida pela SaintCross.</h4>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://conceito.de/wp-content/uploads/2012/04/magazine-806073_1280.jpg" class="card-img-top" alt="revista">
+                        <div class="card-body">
+                          <h5 class="card-title">Revista SaintCross</h5>
+                          <p class="card-text">Publicação voltada para os negócios e para a saúde, traz os destaques do setor farmacêutico.</p>
+                          <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://impressoes.printcenter.com.br/imagens/valor-de-impressao-de-catalogos-com-encadernacao.png" class="card-img-top" alt="catálogo">
+                        <div class="card-body">
+                          <h5 class="card-title">Catálogos Especiais</h5>
+                          <p class="card-text">Mantenha o ponto de venda atualizado sobre os itens que são destaques ao longo do ano.</p>
+                          <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://drlucasmacedo.com.br/wp-content/uploads/2020/09/home-1000x480.jpg" class="card-img-top" alt="home-office">
+                        <div class="card-body">
+                          <h5 class="card-title">SaintCross Digital</h5>
+                          <p class="card-text">Fique atualizado sobre as principais ofertas e novidades de negócios.</p>
+                          <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://lh3.googleusercontent.com/bba4ke6JPeElKArRuoHzPyRxBYziqTsgTQeJWUeB4GO_0O3ymLHSkyPUaS-UhxirqPkSQeNOVM2cwFb-f9EywhCwWobCIfjwAZBfhi0hhHKUURZyWZ1LHH86NNie5_eVXt1hOmKO6H6qy1VZkg" class="card-img-top" alt="devolução">
+                        <div class="card-body">
+                          <h5 class="card-title">Devolução Web</h5>
+                          <p class="card-text">Registre e acompanhe suas devoluções na internet.</p>
+                          <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <div class="container pb-5">
+                <div class="text-center">
+                    <h2 class="section-title">NOTÍCIAS</h2>
+                    <h4 class="section-title pb-2">Informações sobre o canal farma.</h4>
+                </div>
+                <div class="row">
+                    <main class="col-md-8">
+                        <img src="https://balancadigital.info/wp-content/uploads/2023/05/desvendando-os-segredos-da-balanca-tudo-o-que-voce-precisa-saber-sobre-a-balanca-corporal.jpg" alt="balança" class="w-100 rounded">
+                        <p>Aqui vai a notícia principal</p>
+                        <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                    </main>
+                    <aside class="col-md-4">
+                        <img src="https://balancadigital.info/wp-content/uploads/2023/05/desvendando-os-segredos-da-balanca-tudo-o-que-voce-precisa-saber-sobre-a-balanca-corporal.jpg" alt="balança" class="w-100 rounded">
+                        <p>Aqui vai a notícia secundária</p>
+                        <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                        <img src="https://balancadigital.info/wp-content/uploads/2023/05/desvendando-os-segredos-da-balanca-tudo-o-que-voce-precisa-saber-sobre-a-balanca-corporal.jpg" alt="balança" class="w-100 rounded">
+                        <p>Aqui vai a notícia secundária</p>
+                        <p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ler mais</a></p>
+                    </aside>
+                </div>
+        </section>
+    </div>
+
+    <section id="contato">
+        <div class="container pb-5 pt-5">
+            <h3 class="text-light pb-3">Fale conosco</h3>
+            <div class="row">
+                <main class="col-md-10">
+                    <p class="text-light fw-bold">Contamos com um time totalmente preparado para atendê-los com muita dedicação. Entre em contato com a SaintCross também por e-mail. Escolha a opção que melhor atende as suas necessidades.</p>
+                </main>
+                <aside class="col-md-2">
+                    <button class="btn btn-light"><i class="bi bi-whatsapp pe-1"></i>Contate-nos</button>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

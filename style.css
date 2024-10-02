@@ -1,0 +1,29 @@
+.section-title {
+    font-family: "Afacad Flux", system-ui;
+}
+
+header {
+    background-color: #193661;
+}
+
+.navbar a,
+.nav-item .nav-link.active {
+    color: #fff;
+}
+
+.carousel img {
+    height: 700px;
+}
+
+.carousel p,
+.carousel h5 {
+    color: #fff;
+}
+
+.card img {
+    height: 400px;
+}
+
+#contato {
+    background-color: #193661;
+}
